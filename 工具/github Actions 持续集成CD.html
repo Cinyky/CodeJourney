@@ -193,7 +193,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x7B80;&#x4ECB;"><b></b>&#x7B80;&#x4ECB;</a></li><li><span class="title-icon "></span><a href="#&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;"><b></b>&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;</a></li><li><span class="title-icon "></span><a href="#&#x76EE;&#x6807;"><b></b>&#x76EE;&#x6807;</a></li><li><span class="title-icon "></span><a href="#&#x7269;&#x6599;"><b></b>&#x7269;&#x6599;</a></li><li><span class="title-icon "></span><a href="#&#x6B65;&#x9AA4;"><b></b>&#x6B65;&#x9AA4;</a></li></ul></div><a href="#&#x7B80;&#x4ECB;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7B80;&#x4ECB;"><a name="&#x7B80;&#x4ECB;" class="plugin-anchor" href="#&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B80;&#x4ECB;</h1>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x7B80;&#x4ECB;"><b></b>&#x7B80;&#x4ECB;</a></li><li><span class="title-icon "></span><a href="#&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;"><b></b>&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;</a></li><li><span class="title-icon "></span><a href="#&#x76EE;&#x6807;"><b></b>&#x76EE;&#x6807;</a></li><li><span class="title-icon "></span><a href="#&#x7269;&#x6599;"><b></b>&#x7269;&#x6599;</a></li><li><span class="title-icon "></span><a href="#&#x6B65;&#x9AA4;"><b></b>&#x6B65;&#x9AA4;</a></li><li><span class="title-icon "></span><a href="#trigger-the-workflow-on-push"><b></b>Trigger the workflow on push,</a></li><li><span class="title-icon "></span><a href="#but-only-for-the-master-branch"><b></b>but only for the master branch</a></li></ul></div><a href="#&#x7B80;&#x4ECB;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x7B80;&#x4ECB;"><a name="&#x7B80;&#x4ECB;" class="plugin-anchor" href="#&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x7B80;&#x4ECB;" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7B80;&#x4ECB;</h1>
 <p>&#x9879;&#x76EE;&#x6258;&#x7BA1;&#x5728;Github&#x4E0A;&#xFF0C;jenkins&#x5DF2;&#x7ECF;&#x5B9E;&#x73B0;&#x81EA;&#x52A8;&#x6253;&#x5305;&#x90E8;&#x7F72;&#x4EFB;&#x52A1;&#x3002;&#x6BCF;&#x4E00;&#x6B21;&#x4EE3;&#x7801;&#x66F4;&#x65B0;&#x90FD;&#x9700;&#x8981;&#x767B;&#x5F55;jenkins&#x8FDB;&#x884C;&#x70B9;&#x51FB;&#x64CD;&#x4F5C;&#xFF0C;&#x8FC7;&#x4E8E;&#x7E41;&#x7410;&#x3002;</p>
 <h1 id="&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;"><a name="&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;" class="plugin-anchor" href="#&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;" class="anchor-navigation-ex-anchor" href="#&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E13;&#x4E1A;&#x8BCD;&#x6C47;</h1>
 <blockquote>
@@ -211,35 +211,74 @@ Github Actions&#x76D1;&#x542C;master&#x5206;&#x652F;push event&#xFF0C;curl &#x53
 <p>&#x50CF;&#x505A;&#x83DC;&#x4E00;&#x6837;&#xFF0C;&#x4E0B;&#x9762;&#x4F7F;&#x6211;&#x4EEC;&#x62E5;&#x6709;&#x7684;&#x7269;&#x6599; --- &#x6C83;&#x5179;&#x57FA;&#x7855;&#x5FB7;</p>
 </blockquote>
 <ol>
-<li><p>Github</p>
+<li><p><code>Github project</code></p>
 </li>
-<li><p>Github Actions</p>
+<li><p><code>Github Actions</code></p>
 </li>
-<li><p>Jenkins &#x81EA;&#x52A8;&#x6253;&#x5305;&#x90E8;&#x7F72;</p>
+<li><p><code>Jenkins Job</code></p>
 </li>
 </ol>
 <h1 id="&#x6B65;&#x9AA4;"><a name="&#x6B65;&#x9AA4;" class="plugin-anchor" href="#&#x6B65;&#x9AA4;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x6B65;&#x9AA4;" class="anchor-navigation-ex-anchor" href="#&#x6B65;&#x9AA4;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6B65;&#x9AA4;</h1>
-<pre><code>name: Test - CI
+<ol>
+<li>&#x521B;&#x5EFA;Github Actions
+<code>&#x65B0;&#x5EFA;&#x9879;&#x76EE;&#x6216;&#x8005;&#x4F7F;&#x7528;&#x5DF2;&#x6709;&#x9879;&#x76EE;&#x8FDB;&#x884C;&#x521B;&#x5EFA;Actions</code>
+<img src="https://upload-images.jianshu.io/upload_images/6872108-a27bad5b591b7d9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Github Actions - 1.png">
+&#x9009;&#x62E9;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&#x65B9;&#x5F0F;&#x521B;&#x5EFA;
+<img src="https://upload-images.jianshu.io/upload_images/6872108-ecc92a06a4592cdb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Github Actions - 2.png"></li>
+</ol>
+<p>&#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x540E;&#x751F;&#x6210;&#x7684;&#x6A21;&#x677F;&#x6587;&#x4EF6;
+<img src="https://upload-images.jianshu.io/upload_images/6872108-02f21fe906029f21.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Github Actions - 3.png">
+&#x4EE3;&#x7801;&#x6587;&#x4EF6;</p>
+<pre><code># CI&#x540D;&#x79F0;
+name: CI
+# &#x76D1;&#x542C;&#x4E8B;&#x4EF6;&#xFF0C;&#x53EF;&#x9009;push&#xFF0C;pull request
+on: [push]
 
-on:
-  # Trigger the workflow on push,
-  # but only for the master branch
-  push:
-    branches:
-      - master
-
-
+# &#x4EFB;&#x52A1;&#x521B;&#x5EFA;
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-      - name: Start
-        run: echo start ...
-      - name: Jenkins execute
-        run: curl http://106.12.34.36:8389/job/mall/build?token=TOKEN_AUTOMALL
-</code></pre>
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+</code></pre><ol>
+<li><p>&#x5199;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x9700;&#x8981;&#x7684;CI
+```
+name: Test - CI</p>
+<h1 id="trigger-the-workflow-on-push"><a name="trigger-the-workflow-on-push" class="plugin-anchor" href="#trigger-the-workflow-on-push"><i class="fa fa-link" aria-hidden="true"></i></a><a name="trigger-the-workflow-on-push" class="anchor-navigation-ex-anchor" href="#trigger-the-workflow-on-push"><i class="fa fa-link" aria-hidden="true"></i></a>Trigger the workflow on push,</h1>
+<h1 id="but-only-for-the-master-branch"><a name="but-only-for-the-master-branch" class="plugin-anchor" href="#but-only-for-the-master-branch"><i class="fa fa-link" aria-hidden="true"></i></a><a name="but-only-for-the-master-branch" class="anchor-navigation-ex-anchor" href="#but-only-for-the-master-branch"><i class="fa fa-link" aria-hidden="true"></i></a>but only for the master branch</h1>
+<p>on:
+push:
+ branches:</p>
+<ul>
+<li>master</li>
+</ul>
+</li>
+</ol>
+<p>jobs:
+  build:</p>
+<pre><code>runs-on: ubuntu-latest
+
+steps:
+  - name: Jenkins execute
+    run: curl http://[ip:port]/job/mall/build?token=[TOKEN]
+</code></pre><p>```</p>
+<ul>
+<li>&#x76D1;&#x542C;&#x5206;&#x652F;master&#x7684;push&#x4E8B;&#x4EF6;</li>
+<li>&#x8FD0;&#x884C;&#x73AF;&#x5883;<code>ubuntu-latest</code></li>
+<li>&#x6DFB;&#x52A0;&#x4EFB;&#x52A1; curl&#x8BBF;&#x95EE;jenkins&#x5F00;&#x653E;&#x7AEF;&#x53E3;
+<img src="https://upload-images.jianshu.io/upload_images/6872108-9ae47e4bbfd48fa0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="jenkins API.png"></li>
+<li>&#x9047;&#x5230;&#x6743;&#x9650;&#x95EE;&#x9898;&#x65F6;&#xFF0C;&#x6309;&#x4E0B;&#x56FE;&#x8FDB;&#x884C;&#x914D;&#x7F6E;jenkins
+<img src="https://upload-images.jianshu.io/upload_images/6872108-227e0ec986317bec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="jenkins &#x914D;&#x7F6E;.png"></li>
+</ul>
+
                                 
                                 </section>
                             
@@ -278,7 +317,7 @@ jobs:
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Github-Actions-+-Jenkins-实现CI-&-CD","level":"1.2.1","depth":2,"previous":{"title":"工具","level":"1.2","depth":1,"path":"工具/README.md","ref":"工具/README.md","articles":[{"title":"Github-Actions-+-Jenkins-实现CI-&-CD","level":"1.2.1","depth":2,"path":"工具/github Actions 持续集成CD.md","ref":"工具/github Actions 持续集成CD.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["splitter","expandable-chapters-small","anchor-navigation-ex","highlight","search","anchors","anchor-navigation-ex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"CodeJourny","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CodeJourny","language":"zh-hans","gitbook":"3.2.3","description":"CodeJourny的blog"},"file":{"path":"工具/github Actions 持续集成CD.md","mtime":"2019-12-07T07:07:25.450Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-07T07:19:21.123Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Github-Actions-+-Jenkins-实现CI-&-CD","level":"1.2.1","depth":2,"previous":{"title":"工具","level":"1.2","depth":1,"path":"工具/README.md","ref":"工具/README.md","articles":[{"title":"Github-Actions-+-Jenkins-实现CI-&-CD","level":"1.2.1","depth":2,"path":"工具/github Actions 持续集成CD.md","ref":"工具/github Actions 持续集成CD.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["splitter","expandable-chapters-small","anchor-navigation-ex","highlight","search","anchors","anchor-navigation-ex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"CodeJourny","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"CodeJourny","language":"zh-hans","gitbook":"3.2.3","description":"CodeJourny的blog"},"file":{"path":"工具/github Actions 持续集成CD.md","mtime":"2019-12-07T07:51:41.162Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-07T07:52:05.344Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
