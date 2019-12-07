@@ -1,0 +1,24 @@
+{
+    "title": "CodeJourny",
+    "author": "CodeJourny",
+    "description": "CodeJourny的blog",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "splitter",
+        "expandable-chapters-small",
+        "anchor-navigation-ex",
+        "highlight",
+        "search",
+        "anchors",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+      "anchor-navigation-ex": {
+            "showLevel": false
+        }
+    }
+}
